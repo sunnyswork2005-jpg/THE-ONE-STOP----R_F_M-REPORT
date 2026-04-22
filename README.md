@@ -37,3 +37,7 @@ The One Stop is a leading US-based offline retail chain operating across **47 st
 In just its **second year of existence**, the Phoenix branch has demonstrated a healthy and growing customer base. With **484 unique customers** driving over **1,600 transactions**, the outlet is showing strong repeat visit behavior — averaging over **3 visits per customer**, which is an encouraging sign of early loyalty formation for a relatively new retail location.
 
 A total revenue of **$66.64K** in year two positions Phoenix on a solid upward trajectory, and with the right customer retention strategies — informed by our RFM segmentation — there is a clear opportunity to **convert occasional visitors into loyal, high-value customers** in the years ahead.
+
+---
+
+![image alt]()
