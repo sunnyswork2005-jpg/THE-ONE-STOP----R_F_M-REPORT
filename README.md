@@ -64,7 +64,7 @@ Structure of collected Data is as described in  ***Sample Data***
 customer's ****R-F-M Report**** cintains ***6 Major*** stages.
 
 ####1. Appending all ***Monthly data*** tables into one complete ***Year data table***.
-
+![image alt](https://github.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/blob/3fe994f204e7f26fc40cd6f13d9e2e438b0f0a56/Pictures/Appending%20tables.png)
 
 
 
