@@ -48,7 +48,7 @@ A total revenue of **$66.64K** in year two positions Phoenix on a solid upward t
 
 Customer Data  recorded in store. holds information of ***customer's transaction*** which they are informed before any executive note them in ***company's portal.*** 
 
-Structure of collected Data is as described in  *** Sample Data***
+Structure of collected Data is as described in  ***Sample Data***
 
 #### Sample Data.
 
@@ -61,7 +61,10 @@ Structure of collected Data is as described in  *** Sample Data***
 |ORDER01260	|CUST0294	|04-05-2025	|T-Shirt|	35.25|
 |ORDER05151 |	CUST0333|	04-09-2025|	Poster |	77.4|
 
-customer's ****R-F-M Report**** Follow certain criteria
+customer's ****R-F-M Report**** cintains ***6 Major*** stages.
+
+####1. Appending all ***Monthly data*** tables into one complete ***Year data table***.
+
 
 
 
