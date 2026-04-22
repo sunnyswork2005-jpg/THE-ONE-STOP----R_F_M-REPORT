@@ -1,8 +1,6 @@
 ![image alt](https://github.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/blob/b07d3db6612fcbd0b19642deae76e5522115fcbb/Brand%20Logo%201.png)
 # THE-ONE-STOP----R_F_M-REPORT
 
-## BRANCH'S R-F-M REPORT
-
 
 CLIENT DETAILS
 
@@ -12,7 +10,6 @@ CLIENT DETAILS
 
 ---
 
-> *Presented to the Board of Members*
 > 
 
 ---
@@ -23,7 +20,7 @@ The One Stop is a leading US-based offline retail chain operating across **47 st
 
 ---
 
-### FY 2025 — Phoenix at a Glance
+### Year 2025 — Phoenix at a Glance
 
 | Metric | Value |
 | --- | --- |
@@ -36,7 +33,6 @@ The One Stop is a leading US-based offline retail chain operating across **47 st
 
 ---
 
-### Key Narrative for the Board
 
 In just its **second year of existence**, the Phoenix branch has demonstrated a healthy and growing customer base. With **484 unique customers** driving over **1,600 transactions**, the outlet is showing strong repeat visit behavior — averaging over **3 visits per customer**, which is an encouraging sign of early loyalty formation for a relatively new retail location.
 
