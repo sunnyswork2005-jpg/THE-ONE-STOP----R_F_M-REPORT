@@ -44,7 +44,8 @@ A total revenue of **$66.64K** in year two positions Phoenix on a solid upward t
 
 ## Report's Methodolodgy
 
-|**OrderID  | **CustomerID|	**OrderDate	| **ProductType |	**OrderValue |
+|OrderID  | CustomerID|	OrderDate	| ProductType |	OrderValue |
+|-|-|-|-|-|
 |ORDER00511 |CUST0074	| 04-28-2025|	Notebook  |	33.73| 
 |ORDER00571	|CUST0065	|04-03-2025	|Poster	| 65.6 |
 |ORDER06002	|CUST0186	|04-13-2025	|Notebook	|11.13|
