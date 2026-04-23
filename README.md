@@ -46,8 +46,12 @@ A total revenue of **$66.64K** in year two positions Phoenix on a solid upward t
 
 ### Report's Methodolodgy
 
-Customer Data  recorded in store. holds information of ***customer's transaction*** which they are informed before any executive note them in ***company's portal.*** 
+`Customer Data  recorded in store. holds information of ***customer's transaction*** which they are informed before any executive note them in ***company's portal.***`
 
+The RFM report analyzes customer behavior based on three key factors: **Recency** (how recently a customer made a purchase), **Frequency** (how often they purchase), and **Monetary value** (how much they spend).
+
+ These factors drive our analysis of customer behavior, helping us understand customer needs and deliver the best possible service through more personalized, effective strategies.
+ 
 Structure of collected Data is as described in  ***Sample Data***
 
 #### Sample Data.
@@ -61,38 +65,127 @@ Structure of collected Data is as described in  ***Sample Data***
 |ORDER01260	|CUST0294	|04-05-2025	|T-Shirt|	35.25|
 |ORDER05151 |	CUST0333|	04-09-2025|	Poster |	77.4|
 
-customer's ****R-F-M Report**** cintains ***6 Major*** stages.
 
-#### 1. Appending all ***Monthly data*** tables into one complete ***Year data table***.
-CREATE TABLE 
-sales_2025
-AS
-SELECT * FROM jan2025
-UNION ALL 
-SELECT * FROM feb2025
-UNION ALL 
-SELECT * FROM mar2025
-UNION ALL 
-SELECT * FROM apr2025
-UNION ALL 
-SELECT * FROM may2025
-UNION ALL 
-SELECT * FROM jun2025
-UNION ALL 
-SELECT * FROM jul2025
-UNION ALL 
-SELECT * FROM aug2025
-UNION ALL 
-SELECT * FROM sep2025
-UNION ALL 
-SELECT * FROM oct2025
-UNION ALL 
-SELECT * FROM nov2025
-UNION ALL 
-SELECT * FROM dec2025;
+- **THE ONE STOP’S - PHOENIX BRANCH’S RFM  ANALYSES  CONTAIN 6 STEPS**
+    
+    **1. Appending all monthly data tables into one data table ‘sales_2025’ .**
+    
+    ```sql
+    CREATE TABLE
+    sales_2025
+    AS
+    SELECT * FROM jan2025
+    UNION ALL
+    SELECT * FROM feb2025
+    UNION ALL
+    SELECT * FROM mar2025
+    UNION ALL
+    SELECT * FROM apr2025
+    UNION ALL
+    SELECT * FROM may2025
+    UNION ALL
+    SELECT * FROM jun2025
+    UNION ALL
+    SELECT * FROM jul2025
+    UNION ALL
+    SELECT * FROM aug2025
+    UNION ALL
+    SELECT * FROM sep2025
+    UNION ALL
+    SELECT * FROM oct2025
+    UNION ALL
+    SELECT * FROM nov2025
+    UNION ALL
+    SELECT * FROM dec2025;
+    ```
+    
+    **2. Finding major components (Recency, Frequency, Monetary).**
+    
+    ```sql
+    CREATE VIEW
+    r_f_m_metrics
+    AS
+     SELECT
+    customerid,
+    MAX(STR_TO_DATE(orderdate ,'%m-%d-%Y')) AS last_order_date,
+    DATEDIFF(
+    '2026-01-01',
+    MAX(STR_TO_DATE(orderdate ,'%m-%d-%Y'))
+    )AS recency,
+    COUNT(DISTINCT orderid) AS frequency,
+    ROUND(SUM(ordervalue)) AS monetary
+    FROM sales_2025
+    GROUP BY customerid;
+    ```
+    
+    **3. Allotting  scores  according to the performances. Where** 
+    
+    - in r_score - Lowest Recency  is Good  and Highest Recency is bad .
+    - in f_score - Highest Frequency is Good  and Lowest Frequency is bad .
+    - in m_score - Highest Monetary is Good  and Lowest Monetary is bad .
+    
+    ```sql
+    CREATE VIEW
+    r_f_m_score
+    AS
+    SELECT
+    *,
+    NTILE(10) OVER(ORDER BY recency DESC) AS r_score,
+    NTILE(10) OVER(ORDER BY frequency ASC) AS f_score,
+    NTILE(10) OVER(ORDER BY monetary ASC) AS m_score
+    FROM r_f_m_metrics;
+    ```
+    
+    **4. Calculating Total R-F-M score Per-customer by (r_score + f_score + m_score).**
+    
+    ```sql
+    CREATE VIEW
+    total_score
+    AS
+    SELECT
+    customerid,
+    recency,
+    frequency,
+    monetary,
+    r_score,
+    f_score,
+    m_score,
+    (r_score + f_score + m_score) AS total_rfm_score
+    FROM r_f_m_score;
+    ```
+    
+    **5. Creating final table of Customer Segment  by their Total R-F-M score. Where**
+    
+    ```sql
+    CREATE TABLE customer_segment
+    AS
+    SELECT
+    customerid,
+    recency,
+    frequency,
+    monetary,
+    r_score,
+    f_score,
+    m_score,
+    total_rfm_score,
+    ```
+    
+    ```sql
+    - SEGMENTATION
+    CASE
+    WHEN total_rfm_score >= 24 THEN 'Champions'
+    WHEN total_rfm_score BETWEEN 20 AND 23 THEN 'Loyal Customers'
+    WHEN total_rfm_score BETWEEN 15 AND 19 THEN 'Potential Loyalists'
+    WHEN total_rfm_score BETWEEN 10 AND 14 THEN 'Need Attention'
+    WHEN total_rfm_score BETWEEN 6 AND 9 THEN 'At Risk'
+    ELSE 'Lost Customers'
+    END AS customer_segment
+    FROM total_score;
+    ```
+    
+    6. Creating Visualization at  the basis of our final **Customer Segment  table.**  
+    
 
---
-
-
+---
 
 
