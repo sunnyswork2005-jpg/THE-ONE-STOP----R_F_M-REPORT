@@ -64,11 +64,34 @@ Structure of collected Data is as described in  ***Sample Data***
 customer's ****R-F-M Report**** cintains ***6 Major*** stages.
 
 #### 1. Appending all ***Monthly data*** tables into one complete ***Year data table***.
-![image alt](https://github.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/blob/3fe994f204e7f26fc40cd6f13d9e2e438b0f0a56/Pictures/Appending%20tables.png)
+CREATE TABLE 
+sales_2025
+AS
+SELECT * FROM jan2025
+UNION ALL 
+SELECT * FROM feb2025
+UNION ALL 
+SELECT * FROM mar2025
+UNION ALL 
+SELECT * FROM apr2025
+UNION ALL 
+SELECT * FROM may2025
+UNION ALL 
+SELECT * FROM jun2025
+UNION ALL 
+SELECT * FROM jul2025
+UNION ALL 
+SELECT * FROM aug2025
+UNION ALL 
+SELECT * FROM sep2025
+UNION ALL 
+SELECT * FROM oct2025
+UNION ALL 
+SELECT * FROM nov2025
+UNION ALL 
+SELECT * FROM dec2025;
 
-
-
-
+--
 
 
 
