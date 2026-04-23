@@ -194,4 +194,4 @@ Structure of collected Data is as described in  ***Sample Data***
 
 Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attention (21.49%)** segments. **Champions (19.21%)** and **Loyal Customers (17.77%)** make up the middle, while smaller shares are **At Risk (12.19%)** and **Lost Customers (6.82%)**.
 
-![image alt](https://github.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/blob/281035f77b4d246c2b10eccc4bea7582c1acaa16/Pictures/customer%20share.png)
+![image alt](https://github.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M- REPORT/blob/281035f77b4d246c2b10eccc4bea7582c1acaa16/Pictures/customer%20share.png) gdwygddtfedtedfwtys
