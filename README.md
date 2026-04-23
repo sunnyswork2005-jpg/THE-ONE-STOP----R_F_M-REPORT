@@ -186,6 +186,6 @@ Structure of collected Data is as described in  ***Sample Data***
     6. Creating Visualization at  the basis of our final **Customer Segment  table.**  
     
 
----
+
 
 
