@@ -44,6 +44,7 @@ A total revenue of **$66.64K** in year two positions Phoenix on a solid upward t
 
 ![image alt](https://github.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/blob/956892b069b366b488dabfd0bcc0520af8e552fb/The%20One%20Stop%20--%20rfm--dashboard.png)
 
+--- 
 ### Report's Methodolodgy
 
 `Customer Data  recorded in store. holds information of ***customer's transaction*** which they are informed before any executive note them in ***company's portal.***`
