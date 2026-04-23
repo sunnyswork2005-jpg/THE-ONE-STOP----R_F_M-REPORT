@@ -190,4 +190,6 @@ Structure of collected Data is as described in  ***Sample Data***
 
 ---
 
+# **Insight : 1**
 
+Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attention (21.49%)** segments. **Champions (19.21%)** and **Loyal Customers (17.77%)** make up the middle, while smaller shares are **At Risk (12.19%)** and **Lost Customers (6.82%)**.
