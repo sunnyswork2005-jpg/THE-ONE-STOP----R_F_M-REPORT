@@ -184,9 +184,10 @@ Structure of collected Data is as described in  ***Sample Data***
     FROM total_score;
     ```
     
-    6. Creating Visualization at  the basis of our final **Customer Segment  table.**  
-    
+    6.Creating Visualization at  the basis of our final **Customer Segment  table.**  
 
+    ![image alt](https://github.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/blob/956892b069b366b488dabfd0bcc0520af8e552fb/The%20One%20Stop%20--%20rfm--dashboard.png)
 
+---
 
 
