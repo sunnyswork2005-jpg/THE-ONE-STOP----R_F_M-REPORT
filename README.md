@@ -200,6 +200,18 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
 
 **Growth opportunity** — Potential Loyalists (22.52%) and Need Attention (21.49%) together make up nearly 44% of customers. These are your most actionable segments — targeted retention efforts here could convert them into Champions or Loyal Customers.
 
+---
+
+# **Insight : 2**
+
+---
+
+- Champions and Loyal Customers are ~37% of the customer base, but they generate $38.97K out of $66.64K (~58.5%) of total revenue. which indicates that 37% of **Top customers** generate more  revenue than other 63% of customers.
+- Potential Loyalists and Need Attention customers make up ~44% of the customer base, yet they contribute only ~$23.25K out of $66.64K (~35%) in total revenue.
+- At Risk and Lost Customers make up ~19% of the customer base, but they generate only ~$4.52K out of $66.64K (~6.8%) of total revenue.
+
+---
+
 **Loyal base is solid** — Champions + Loyal Customers combine for ~37%, a strong foundation of engaged customers. which indicates that 1/3 of our customer base is loyal to us.
 
 **Risk signals** — At Risk (12.19%) + Lost Customers (6.82%) = ~19% of your base needs recovery or win-back campaigns before they're gone permanently.
