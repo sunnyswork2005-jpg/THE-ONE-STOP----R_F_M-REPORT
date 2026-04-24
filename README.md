@@ -219,6 +219,14 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
   
 - At Risk and Lost Customers make up ~19% of the customer base, but they generate only ~$4.52K out of $66.64K (~6.8%) of total revenue.    
 <img src="https://raw.githubusercontent.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/6d28594569698bfaad826f36c53572b99c96e095/Pictures/At%20risk%20and%20lost%20customer.png" width="500"/>
+
 ---
 
+### Suggestions & Recommendations (Action Sheet)
+
+| Problem | Short suggestion | Recommendation |
+| --- | --- | --- |
+| Revenue depends heavily on Champions + Loyal (37% → 58.5%) | Protect these customers first. | Launch VIP tier + referral rewards + exclusive Offers to keep them active and spending. |
+| Potential Loyalists + Need Attention are big (44%) but low revenue (35%) | Convert them to Loyal with repeat-buy triggers. | Offer “2nd/3rd purchase” rewards, personalized Offers, and points on multipal purchases to increase frequency and basket size. |
+| At Risk + Lost (19%) are close to churn | Run a win-back campaign quickly. | should send reminder or stronger offers or Fomo of last-chance or all three, and focus  on previous high spenders only. |
 
