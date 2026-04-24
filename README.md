@@ -200,8 +200,13 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
 
 **Growth opportunity** — Potential Loyalists (22.52%) and Need Attention (21.49%) together make up nearly 44% of customers. These are your most actionable segments — targeted retention efforts here could convert them into Champions or Loyal Customers.
 
----
 
+
+**Loyal base is solid** — Champions + Loyal Customers combine for ~37%, a strong foundation of engaged customers. which indicates that 1/3 of our customer base is loyal to us.
+
+**Risk signals** — At Risk (12.19%) + Lost Customers (6.82%) = ~19% of your base needs recovery or win-back campaigns before they're gone permanently.
+
+---
 # **Insight : 2**
 
 ---
@@ -212,6 +217,4 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
 
 ---
 
-**Loyal base is solid** — Champions + Loyal Customers combine for ~37%, a strong foundation of engaged customers. which indicates that 1/3 of our customer base is loyal to us.
 
-**Risk signals** — At Risk (12.19%) + Lost Customers (6.82%) = ~19% of your base needs recovery or win-back campaigns before they're gone permanently.
