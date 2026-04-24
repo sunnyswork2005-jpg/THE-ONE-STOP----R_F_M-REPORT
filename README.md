@@ -209,7 +209,6 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
 ---
 # **Insight : 2**
 
----
 
 - Champions and Loyal Customers are ~37% of the customer base, but they generate $38.97K out of $66.64K (~58.5%) of total revenue. which indicates that 37% of **Top customers** generate more  revenue than other 63% of customers.
 - Potential Loyalists and Need Attention customers make up ~44% of the customer base, yet they contribute only ~$23.25K out of $66.64K (~35%) in total revenue.
