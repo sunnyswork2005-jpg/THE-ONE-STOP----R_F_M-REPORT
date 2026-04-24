@@ -47,7 +47,7 @@ A total revenue of **$66.64K** in year two positions Phoenix on a solid upward t
 --- 
 ### Report's Methodolodgy
 
-`Customer Data  recorded in store. holds information of ***customer's transaction*** which they are informed before any executive note them in ***company's portal***.``  
+~ Customer Data  recorded in store. holds information of ***customer's transaction*** which they are informed before any executive note them in ***company's portal***.~  
 
 The RFM report analyzes customer behavior based on three key factors: **Recency** (how recently a customer made a purchase), **Frequency** (how often they purchase), and **Monetary value** (how much they spend).
 
