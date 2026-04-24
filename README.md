@@ -229,4 +229,12 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
 | Revenue depends heavily on Champions + Loyal (37% → 58.5%) | Protect these customers first. | Launch VIP tier + referral rewards + exclusive Offers to keep them active and spending. |
 | Potential Loyalists + Need Attention are big (44%) but low revenue (35%) | Convert them to Loyal with repeat-buy triggers. | Offer “2nd/3rd purchase” rewards, personalized Offers, and points on multipal purchases to increase frequency and basket size. |
 | At Risk + Lost (19%) are close to churn | Run a win-back campaign quickly. | should send reminder or stronger offers or Fomo of last-chance or all three, and focus  on previous high spenders only. |
+---
+### What This Means Going Forward
 
+- The **repeat transaction rate** suggests Phoenix customers are returning — the goal now is to **deepen that loyalty**
+- RFM segmentation will help identify which of the 484 customers are **Champions, At-Risk, or Potential Loyalists**
+- Targeted engagement strategies can help **grow revenue per customer** beyond the current $137 average
+
+---
+---
