@@ -213,7 +213,7 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
  <img src="https://raw.githubusercontent.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/b0671ad32c99eb19b12dcc06bf3eccb09535bb1e/Pictures/champ%20an%20loyal%20customer.png" width="500"/>
 - Potential Loyalists and Need Attention customers make up ~44% of the customer base, yet they contribute only ~$23.25K out of $66.64K (~35%) in total revenue.
 - At Risk and Lost Customers make up ~19% of the customer base, but they generate only ~$4.52K out of $66.64K (~6.8%) of total revenue.
-
+<img src="https://raw.githubusercontent.com/sunnyswork2005-jpg/THE-ONE-STOP----R_F_M-REPORT/6d28594569698bfaad826f36c53572b99c96e095/Pictures/At%20risk%20and%20lost%20customer.png" width="500"/>
 ---
 
 
