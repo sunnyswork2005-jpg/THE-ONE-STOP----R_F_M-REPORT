@@ -222,7 +222,7 @@ Most customers fall into the **Potential Loyalists (22.52%)** and **Need Attenti
 
 ---
 
-### Suggestions & Recommendations (Action Sheet)
+### Suggestions & Recommendations 
 
 | Problem | Short suggestion | Recommendation |
 | --- | --- | --- |
