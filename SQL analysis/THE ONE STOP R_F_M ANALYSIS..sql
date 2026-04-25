@@ -1,21 +1,21 @@
 sql
 	
-|-- CREATING DATABASE.|
-	|-|
-|CREATE DATABASE R_F_M_Analytics;|
+-- CREATING DATABASE.
+
+CREATE DATABASE R_F_M_Analytics;
 
 
-```sql
+sql
 -- USING DATABSE.
 USE R_F_M_Analytics;
-```
 
-```sql
+
+sql
 -- CHECKING TABLES WITHIN THE DATABASE.
 SHOW TABLES;
-```
 
-```sql
+
+sql
 -- APPENDING ALL MONTHLY SALES TABLE DATA TO CREATE SINGLE YEAR SALES TABLE(sales_2025).
 CREATE TABLE
 sales_2025
@@ -43,40 +43,40 @@ UNION ALL
 SELECT * FROM nov2025
 UNION ALL
 SELECT * FROM dec2025;
-```
 
-```sql
+
+sql
 -- NO OF TRANSACTIONS.
 SELECT COUNT(*) AS Total_Transaction
 FROM sales_2025;
-```
 
-```sql
+
+sql
 -- NO OF CUSTOMERS.
 SELECT COUNT(DISTINCT CustomerID)
 AS Total_Customers
 FROM sales_2025;
-```
 
-```sql
+
+sql
 -- AVG TRANSACTION PER CUSTOMER.
 SELECT COUNT(*) / COUNT(DISTINCT customerid)
 FROM sales_2025;
-```
 
-```sql
+
+sql
 -- AVERAGE REVENUE PER CUSTOMER.
 SELECT ROUND(SUM(ordervalue) / COUNT(DISTINCT Customerid),2)
 FROM sales_2025;
-```
 
-```sql
+
+sql
 -- AVERAGE TRANSACTION VALUE.
 SELECT ROUND(SUM(ordervalue) / COUNT(Customerid),2)
 FROM sales_2025;
-```
 
-```sql
+
+sql
 -- FINDING MAJOR COMPONENTS(RECENCY,FREQUENCY AND MONETARY) BY CREATING VIEW(r_f_m metrics).
 CREATE VIEW
 r_f_m_metrics
@@ -92,9 +92,9 @@ COUNT(DISTINCT orderid) AS frequency,
 ROUND(SUM(ordervalue)) AS monetary
 FROM sales_2025
 GROUP BY customerid;
-```
 
-```sql
+
+sql
 -- ALLOTING SCORES ACCORDING TO THE PERFORMANCE [(LOWEST recency = 10,HIGHEST recency = 1),(HIGHEST frequency OR monetary = 10, LOWEST frequency OR monetary = 1)]
 CREATE VIEW
 r_f_m_score
@@ -105,9 +105,9 @@ NTILE(10) OVER(ORDER BY recency DESC) AS r_score,
 NTILE(10) OVER(ORDER BY frequency ASC) AS f_score,
 NTILE(10) OVER(ORDER BY monetary ASC) AS m_score
 FROM r_f_m_metrics;
-```
 
-```sql
+
+sql
 -- FINDING TOTAL R_F_M SCORES BY (r_score + f_score + m_score).
 CREATE VIEW
 total_score
@@ -122,9 +122,9 @@ f_score,
 m_score,
 (r_score + f_score + m_score) AS total_rfm_score
 FROM r_f_m_score;
-```
 
-```sql
+
+sql
 -- CREATING FINAL TABLE 'customer_segment' BY ,SEGMENTING CUSTOMERS BASE ON THEIR 'total_rfm_score'.
 
 CREATE TABLE customer_segment
@@ -138,9 +138,9 @@ AS
 		f_score,
 		m_score,
 		total_rfm_score,
-```
 
-```sql
+
+sql
 -- SEGMENTATION
 CASE
 WHEN total_rfm_score >= 24 THEN 'Champions'
@@ -151,7 +151,7 @@ WHEN total_rfm_score BETWEEN 6 AND 9 THEN 'At Risk'
 ELSE 'Lost Customers'
 END AS customer_segment
 FROM total_score;
-```    
+ 
     
     
     
