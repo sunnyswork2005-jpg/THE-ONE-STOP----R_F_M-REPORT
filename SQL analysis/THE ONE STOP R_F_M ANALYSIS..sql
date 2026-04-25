@@ -1,7 +1,7 @@
-```sql
+|```sql|
 -- CREATING DATABASE .
 CREATE DATABASE R_F_M_Analytics;
-```
+|```|
 
 ```sql
 -- USING DATABSE.
